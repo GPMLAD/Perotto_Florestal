@@ -1,0 +1,23 @@
+header {
+  background-color: var(--color-green-BG);
+  border-bottom: 1px solid var(--opacity-1);
+}
+
+.logo {
+  width: min(40%, 150px);
+}
+
+.logo img {
+  width: 100%;
+}
+
+
+
+.resume {
+  padding-top: 20px;
+  background-color: var(--color-green-BG);
+}
+
+section{
+  padding: 20px 0;
+}

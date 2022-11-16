@@ -1,0 +1,72 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-gray-1);
+}
+
+:root {
+  --color-green-1: #133633;
+  --color-green-2: #2e923f;
+  --color-green-3: #5aac37;
+  --color-green-BG: #dce9e2;
+  --color-gray-1: #262626;
+  --color-gray-2: #383838;
+  --color-gray-3: #787878;
+  --color-gray-4: #dedede;
+  --color-gray-5: #f7f7f7;
+  --color-white: #ffffff;
+  --opacity-1: rgba(0, 0, 0, 0.5);
+
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-1: 48px;
+  --font-size-2: 40px;
+  --font-size-3: 32px;
+  --font-size-4: 22px;
+  --font-size-5: 18px;
+  --font-size-6: 16px;
+  --font-size-7: 14px;
+
+  --radius-1: 32px;
+
+  --padding-1: 50px;
+  --padding-2: 24px;
+  --padding-3: 12px;
+
+  --gap-1: 40px;
+  --gap-2: 10px;
+}
+
+.container {
+  max-width: min(1200px, 90vw);
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.spaceBT {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.gap-1{
+  gap: var(--gap-1);
+}
+
+.gap-2{
+  gap: var(--gap-2);
+}
+
+.greenBG{
+  background-color: var(--color-green-BG);
+}
