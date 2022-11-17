@@ -1,0 +1,41 @@
+
+.service-list{
+  width: 100%;
+}
+
+.service-list li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 80%;
+  padding: 15px;
+  
+  border-radius: 5px;
+  box-shadow: 0.3px 0.3px 2px 2px #d1cece;
+}
+
+.card .icon{
+  display: flex;
+  position: absolute;
+  left: -16px;
+  top: -16px;
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 30px;
+}
+
+.card h2{
+  margin-bottom: 15px;
+}
+
+.card span{
+  font-size: 14px;
+}
+
