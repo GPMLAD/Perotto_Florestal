@@ -29,6 +29,7 @@ body {
   --font-size-7: 14px;
 
   --radius-1: 32px;
+  --radius-2: 16px;
 
   --padding-1: 50px;
   --padding-2: 24px;
@@ -59,14 +60,14 @@ body {
   align-items: center;
 }
 
-.gap-1{
+.gap-1 {
   gap: var(--gap-1);
 }
 
-.gap-2{
+.gap-2 {
   gap: var(--gap-2);
 }
 
-.greenBG{
+.greenBG {
   background-color: var(--color-green-BG);
 }
