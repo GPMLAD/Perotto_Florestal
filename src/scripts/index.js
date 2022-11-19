@@ -1,3 +1,12 @@
+import { dropDown } from './dropDown.js'
+
+const buttonMenu = document.querySelector('.openMenuDD')
+buttonMenu.addEventListener('click', () => {
+  dropDown()
+})
+
+console.log(buttonMenu)
+
 document.querySelector('#whatsapp').addEventListener('click', () => {
   window.open(
     'https://wa.me/5541996410628?text=Olá, vi seu site e estou entrando em contato para mais informações, você poderia me ajudar?',
