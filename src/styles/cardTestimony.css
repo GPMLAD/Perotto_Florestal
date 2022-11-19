@@ -1,0 +1,26 @@
+.testimonySection {
+  background-color: var(--color-green-1);
+}
+
+.testimonySection h2 {
+  color: var(--color-white);
+  padding: var(--padding-2) ;
+  text-align: center;
+}
+
+.testimony {
+  background-color: var(--color-white);
+
+  border-radius: var(--radius-2);
+  border: none;
+
+  box-shadow: 5px 5px 11px -1px #000000;
+
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: var(--padding-2);
+
+  color: var(--color-gray-1);
+}
