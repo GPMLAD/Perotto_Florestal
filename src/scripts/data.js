@@ -59,3 +59,5 @@ const dataTestimony = [
     description: 'Retificação de Cadastro Ambiental Rural'
   }
 ]
+
+export{dataServices,dataTestimony}
