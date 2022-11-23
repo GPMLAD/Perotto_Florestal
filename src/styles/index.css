@@ -1,6 +1,6 @@
 header {
   background-color: var(--color-green-BG);
-  border-bottom: 1px solid var(--opacity-1);
+  padding-top: var(--padding-2);
 }
 
 .logo {

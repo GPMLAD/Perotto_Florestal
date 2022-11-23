@@ -1,10 +1,11 @@
 .testimonySection {
   background-color: var(--color-green-1);
+  padding: var(--padding-2) 0;
 }
 
 .testimonySection h2 {
   color: var(--color-white);
-  padding: var(--padding-2) ;
+  padding: var(--padding-1);
   text-align: center;
 }
 
@@ -23,4 +24,36 @@
   padding: var(--padding-2);
 
   color: var(--color-gray-1);
+
+  max-width: 450px;
+
+  align-self: center;
+}
+
+.testimony q {
+  font-style: italic;
+}
+
+@media (min-width: 1080px) {
+  .testimonySection ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .testimonySection .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .testimony {
+    width: 350px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-2);
+  }
 }
