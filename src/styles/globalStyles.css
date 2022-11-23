@@ -72,3 +72,7 @@ body {
 .greenBG {
   background-color: var(--color-green-BG);
 }
+
+.italic{
+  font-style: italic;
+}
