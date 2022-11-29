@@ -43,7 +43,7 @@ function createServiceCard(obj) {
   divIcon.classList.add('icon')
 
   const icon = document.createElement('img')
-  icon.src = './src/imgs/whatsapp.svg'
+  icon.src = `${obj.img}`
 
   const cardTitle = document.createElement('h2')
   cardTitle.classList.add('title-4')
