@@ -76,3 +76,9 @@ body {
 .italic{
   font-style: italic;
 }
+
+@media (min-width: 1080px) {
+  .container {
+    max-width: min(1500px, 90vw);
+  }
+}
