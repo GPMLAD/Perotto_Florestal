@@ -38,6 +38,10 @@
   font-weight: var(--font-weight-regular);
 }
 
+.main-title{
+  max-width: 700px;
+}
+
 .colorGreen {
   color: var(--color-green-1);
 }
