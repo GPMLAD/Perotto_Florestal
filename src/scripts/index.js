@@ -29,4 +29,5 @@ document.querySelector('#mail').addEventListener('click', () => {
   window.open('mailto:perotto.florestal@hotmail.com', '_blank')
 })
 
+renderServiceCards(dataServices)
 renderTestimonyCards(dataTestimony)

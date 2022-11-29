@@ -14,7 +14,7 @@ function createTestimonyCard(obj) {
 
   const quote = document.createElement('q')
   quote.classList.add('title-5')
-  quote.innerText = `&quot;${obj.title}&quot;`
+  quote.innerText = `\x22${obj.title}\x22`
 
   const elementDescription = document.createElement('p')
   elementDescription.innerText = `${obj.description}`
