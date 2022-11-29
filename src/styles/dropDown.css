@@ -8,6 +8,7 @@
   position: absolute;
   z-index: 1;
   background-color: var(--color-green-1);
+  animation: showMenu ease 1s;
 }
 
 .dropDown-wrapper a {
@@ -22,4 +23,14 @@
 .dropDown-menu {
   padding-top: 50px;
   justify-content: center;
+}
+
+@keyframes showMenu {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
