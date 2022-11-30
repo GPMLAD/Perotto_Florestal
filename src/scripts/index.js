@@ -35,7 +35,7 @@ renderTestimonyCards(dataTestimony)
 ScrollReveal().reveal(
   `header,main,section,footer,div,p,h1,h2,h3,img,button,ul,li,span,q
 `,
-  { delay: 500 }
+  { delay: 200 }
 )
 
 addEventListener('scroll', event => {

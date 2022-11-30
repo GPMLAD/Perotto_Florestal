@@ -4,6 +4,10 @@ body {
   background-color: var(--color-gray-5);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
   --color-green-1: #133633;
   --color-green-2: #2e923f;
@@ -82,3 +86,4 @@ body {
     max-width: min(1500px, 90vw);
   }
 }
+
