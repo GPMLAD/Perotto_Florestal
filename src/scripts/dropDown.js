@@ -1,3 +1,12 @@
+function scrollToSection(sectionID) {
+  console.log('entrou na função')
+  window.scrollBy(
+    0,
+    document.getElementById(sectionID).getBoundingClientRect().top -
+      93
+  )
+}
+
 export function dropDown() {
   const body = document.querySelector('body')
   body.classList.add('locked')
@@ -35,62 +44,79 @@ export function dropDown() {
   closeImg.alt = 'Fechar'
 
   const dropDownMenu = document.createElement('div')
-  dropDownMenu.classList.add('flex','col','alignCenter','gap-1','dropDown-menu')
+  dropDownMenu.classList.add(
+    'flex',
+    'col',
+    'alignCenter',
+    'gap-1',
+    'dropDown-menu'
+  )
 
   const ulSections = document.createElement('ul')
   ulSections.classList.add('flex', 'col', 'alignCenter', 'gap-1')
 
   const resume = document.createElement('li')
   const resumeAnchor = document.createElement('a')
+  resumeAnchor.setAttribute('onclick', 'event.preventDefault()')
   resumeAnchor.classList.add('title-4')
-  resumeAnchor.href = '#init'
+  resumeAnchor.href = '#'
   resumeAnchor.innerText = 'Início'
   resumeAnchor.addEventListener('click', () => {
     dropDownWrapper.remove()
+    scrollToSection('init')
     body.classList.remove('locked')
   })
   resume.appendChild(resumeAnchor)
 
   const services = document.createElement('li')
   const servicesAnchor = document.createElement('a')
+  servicesAnchor.setAttribute('onclick', 'event.preventDefault()')
   servicesAnchor.classList.add('title-4')
-  servicesAnchor.href = '#services'
+  servicesAnchor.href = '#'
   servicesAnchor.innerText = 'Serviços'
-  servicesAnchor.addEventListener('click', () => {
+  servicesAnchor.addEventListener('click', e => {
+    e.preventDefault()
     dropDownWrapper.remove()
+    scrollToSection('services')
     body.classList.remove('locked')
   })
   services.appendChild(servicesAnchor)
 
   const testimony = document.createElement('li')
   const testimonyAnchor = document.createElement('a')
+  testimonyAnchor.setAttribute('onclick', 'event.preventDefault()')
   testimonyAnchor.classList.add('title-4')
-  testimonyAnchor.href = '#testimonySection'
+  testimonyAnchor.href = '#'
   testimonyAnchor.innerText = 'Depoimentos'
   testimonyAnchor.addEventListener('click', () => {
     dropDownWrapper.remove()
+    scrollToSection('testimonySection')
     body.classList.remove('locked')
   })
   testimony.appendChild(testimonyAnchor)
 
   const manager = document.createElement('li')
   const managerAnchor = document.createElement('a')
+  managerAnchor.setAttribute('onclick', 'event.preventDefault()')
   managerAnchor.classList.add('title-4')
-  managerAnchor.href = '#technicalManager'
+  managerAnchor.href = '#'
   managerAnchor.innerText = 'Responsável'
   managerAnchor.addEventListener('click', () => {
     dropDownWrapper.remove()
+    scrollToSection('technicalManager')
     body.classList.remove('locked')
   })
   manager.appendChild(managerAnchor)
 
   const contact = document.createElement('li')
   const contactAnchor = document.createElement('a')
+  contactAnchor.setAttribute('onclick', 'event.preventDefault()')
   contactAnchor.classList.add('title-4')
-  contactAnchor.href = '#contact'
+  contactAnchor.href = '#'
   contactAnchor.innerText = 'Contato'
   contactAnchor.addEventListener('click', () => {
     dropDownWrapper.remove()
+    scrollToSection('contact')
     body.classList.remove('locked')
   })
   contact.appendChild(contactAnchor)

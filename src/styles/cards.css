@@ -18,6 +18,7 @@
   padding: var(--padding-2);
   border-radius: 5px;
   box-shadow: 0.3px 0.3px 2px 2px #d1cece;
+  justify-content: center;
 }
 
 .card .icon{

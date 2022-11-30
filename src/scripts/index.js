@@ -2,6 +2,7 @@ import { renderServiceCards, renderTestimonyCards } from './createCards.js'
 import { dataServices, dataTestimony } from './data.js'
 import { dropDown } from './dropDown.js'
 
+
 const buttonMenu = document.querySelector('.openMenuDD')
 buttonMenu.addEventListener('click', () => {
   dropDown()
@@ -53,3 +54,4 @@ addEventListener('scroll', event => {
       './src/imgs/logoBlack.png'
   }
 })
+
