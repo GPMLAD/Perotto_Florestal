@@ -1,0 +1,60 @@
+button{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonExtraLarge {
+  padding: var(--padding-3) var(--padding-1);
+  border-radius: var(--radius-1);
+}
+
+.buttonLarge {
+  padding: var(--padding-3) var(--padding-2);
+  border-radius: var(--radius-1);
+}
+
+.buttonSmall {
+  padding: var(--padding-3) var(--padding-3);
+  border-radius: var(--radius-1);
+}
+
+.filledGreen {
+  background-color: var(--color-green-2);
+  color: var(--color-white);
+  border: 1px solid var(--color-green-2);
+}
+
+.filledGreen:hover {
+  background-color: var(--color-green-1);
+  border: 1px solid var(--color-green-1);
+}
+
+.notFilledGreen {
+  background-color: var(--color-white);
+  color: var(--color-green-2);
+  border: 1px solid var(--color-green-3);
+}
+
+.notFilledGreen:hover {
+  color: var(--color-green-1);
+  border: 1px solid var(--color-green-2);
+}
+
+.notFilledWhite {
+  background-color: transparent;
+  color: var(--color-white);
+  border: 1px solid var(--color-white);
+}
+
+.notFilledWhite:hover {
+  color: var(--color-gray-3);
+  border: 1px solid var(--color-gray-3);
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}

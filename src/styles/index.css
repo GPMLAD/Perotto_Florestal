@@ -1,0 +1,35 @@
+header {
+  background-color: var(--color-green-BG);
+  padding-top: var(--padding-2);
+  padding-bottom: var(--padding-2);
+}
+
+.logo {
+  width: min(40%, 150px);
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menuScrollStyle {
+  background-color: var(--color-green-1);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.resume {
+  padding-top: 20px;
+  background-color: var(--color-green-BG);
+}
+
+section {
+  padding: 20px 0;
+}
+
+footer {
+  background-color: var(--color-green-1);
+  color: var(--color-white);
+  padding: var(--padding-2);
+}

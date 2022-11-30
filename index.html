@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/buttons.css" />
+    <link rel="stylesheet" href="./src/styles/text.css" />
+    <link rel="stylesheet" href="./src/styles/cards.css" />
+    <link rel="stylesheet" href="./src/styles/cardTestimony.css" />
+    <link rel="stylesheet" href="./src/styles/technicalManager.css" />
+    <link rel="stylesheet" href="./src/styles/dropDown.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+
+    <link rel="icon" href="./src/imgs/tabIcon.png" type="image/x-icon">
+    <title>Perotto Florestal</title>
+  </head>
+  <body id="init">
+    <header id="resume">
+      <div class="container flex spaceBT alignCenter">
+        <div class="logo">
+          <img src="./src/imgs/logoBlack.png" alt="" />
+        </div>
+        <button class="openMenuDD">
+          <img src="./src/imgs/menuDD.png" alt="" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="resume">
+        <section class="container flex col alignCenter textCenter gap-1">
+          <h1 class="colorGreen-2 title-5">
+            BOAS-VINDAS À <br />
+            PEROTTO FLORESTAL
+          </h1>
+          <h2 class="title-2">Consultoria simplificada</h2>
+          <h3 class="main-title">
+            A Perotto Florestal vai além de uma simples consultoria. Somos
+            especialistas em resolução e prevenção de problemas florestais em
+            áreas urbanas e rurais.
+          </h3>
+          <button class="buttonExtraLarge filledGreen contact">
+            <img src="./src/imgs/whatsapp.png" alt="" />
+            <span>ENTRE EM CONTATO</span>
+          </button>
+        </section>
+      </div>
+      <section id="services" class="container flex col textCenter gap-1">
+        <h2 class="title-3">Serviços</h2>
+        <ul class="service-list flex col gap-1"></ul>
+      </section>
+      <section id="testimonySection" class="testimonySection">
+        <div class="container">
+          <h2 class="title-3">Depoimentos</h2>
+          <ul id="testimonyList" class="flex col gap-1"></ul>
+        </div>
+      </section>
+      <section id="technicalManager" class="flex col alignCenter greenBG gap-1">
+        <h2 class="title-3">Responsável técnica</h2>
+        <div class="manager flex col gap-1 alignCenter">
+          <div class="flex col gap-2 alignCenter">
+            <h3 class="colorGray-1 title-4">Engenheira Florestal</h3>
+            <h3 class="colorGreen-2 title-4">Naiade Perotto de Morais</h3>
+          </div>
+          <p class="title-5">CREA PR 185406/D</p>
+        </div>
+      </section>
+      <section id="contact" class="container flex col gap-1">
+        <h2 class="title-3">Entre em contato</h2>
+        <ul class="flex col gap-2">
+          <li>
+            <button id="whatsapp" class="buttonExtraLarge filledGreen contact">
+              <img src="./src/imgs/whatsapp.png" alt="" />
+              <span>Contato e Orçamento</span>
+            </button>
+          </li>
+          <li>
+            <button id="address" class="contact colorGreen">
+              <img src="./src/imgs/map-pin.png" alt="Endereço" />
+              <span>Curitiba/PR</span>
+            </button>
+          </li>
+          <li>
+            <button id="mail" class="contact colorGreen">
+              <img src="./src/imgs/mail.png" alt="Email" />
+              <span>perotto.florestal@hotmail.com</span>
+            </button>
+          </li>
+          <li>
+            <button id="instagram" class="contact colorGreen">
+              <img src="./src/imgs/instagram.png" alt="Instagram" />
+              <span>@perottoflorestal</span>
+            </button>
+          </li>
+          <li>
+            <button id="facebook" class="contact colorGreen">
+              <img src="./src/imgs/facebook.png" alt="Facebook" />
+              <span>Perotto Florestal</span>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="container flex col alignCenter spaceBt gap-2">
+        <img class="logo" src="./src/imgs/logoWhite.png" alt="" />
+
+        <ul class="flex gap-2">
+          <li>
+            <a href="mailto:perotto.florestal@hotmail.com">
+              <img src="./src/imgs/mailWhite.png" alt="Email" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100087565187658"
+              target="_blank"
+            >
+              <img src="./src/imgs/facebookWhite.png" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/perottoflorestal/"
+              target="_blank"
+            >
+              <img src="./src/imgs/instagramWhite.png" alt="Instagram" />
+            </a>
+          </li>
+        </ul>
+        <p>CNPJ 47.227.998/0001-25</p>
+        <p>©2022 Perotto Florestal.</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="./src/scripts/index.js"></script>
+  </body>
+</html>

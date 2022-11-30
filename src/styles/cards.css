@@ -1,0 +1,83 @@
+/* Mobile */
+.service-list{
+  width: 100%;
+}
+
+.service-list li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 450px;
+  width: 80%;
+  padding: var(--padding-2);
+  border-radius: 5px;
+  box-shadow: 0.3px 0.3px 2px 2px #d1cece;
+}
+
+.card .icon{
+  display: flex;
+  position: absolute;
+  left: -16px;
+  top: -16px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-green-2);
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.card .icon img{
+  display: flex;
+  width: 35px;
+  height: 35px;
+}
+
+.card h2{
+  margin-bottom: 15px;
+}
+
+.card span{
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+/* ipad  */
+@media (min-width: 480px) {
+
+}
+
+/* small */
+@media (min-width: 770px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1080px) {
+  .service-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card{
+    width: 400px;
+    min-height: 150px;
+  }
+  
+  .card span{
+    text-align: center;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+  }
+}

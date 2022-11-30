@@ -1,0 +1,10 @@
+#technicalManager{
+  padding: var(--padding-1) 0;
+}
+
+.manager{
+  padding: var(--padding-1);
+  border-radius: var(--radius-2);
+  border: none;
+  background-color: white;
+}
