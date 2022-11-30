@@ -37,3 +37,19 @@ ScrollReveal().reveal(
 `,
   { delay: 500 }
 )
+
+addEventListener('scroll', event => {
+  if (window.scrollY > 0) {
+    document.querySelector('header').classList.add('menuScrollStyle')
+    document.getElementsByClassName('openMenuDD')[0].children[0].src =
+      './src/imgs/menuDDWhite.png'
+    document.getElementsByClassName('logo')[0].children[0].src =
+      './src/imgs/logoWhite.png'
+  } else {
+    document.querySelector('header').classList.remove('menuScrollStyle')
+    document.getElementsByClassName('openMenuDD')[0].children[0].src =
+      './src/imgs/menuDD.png'
+    document.getElementsByClassName('logo')[0].children[0].src =
+      './src/imgs/logoBlack.png'
+  }
+})
