@@ -43,7 +43,7 @@ export function dropDown() {
   const resume = document.createElement('li')
   const resumeAnchor = document.createElement('a')
   resumeAnchor.classList.add('title-4')
-  resumeAnchor.href = '#resume'
+  resumeAnchor.href = '#init'
   resumeAnchor.innerText = 'Início'
   resumeAnchor.addEventListener('click', () => {
     dropDownWrapper.remove()
