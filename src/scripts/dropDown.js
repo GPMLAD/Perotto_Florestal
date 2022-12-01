@@ -140,7 +140,7 @@ export function dropDown() {
   textContactButton.innerText = 'Contato e Orçamento'
 
   const ulLinks = document.createElement('ul')
-  ulLinks.classList.add('flex', 'gap-2')
+  ulLinks.classList.add('flex', 'gap-1')
 
   const mailLink = document.createElement('li')
 
