@@ -15,6 +15,14 @@ document.querySelector('#whatsapp').addEventListener('click', () => {
   )
 })
 
+document.querySelector('#whatsappResume').addEventListener('click', () => {
+  window.open(
+    'https://wa.me/5541996410628?text=Olá, vi seu site e estou entrando em contato para mais informações, você poderia me ajudar?',
+    '_blank'
+  )
+})
+
+
 document.querySelector('#facebook').addEventListener('click', () => {
   window.open(
     'https://www.facebook.com/profile.php?id=100087565187658',
